@@ -1,39 +1,26 @@
 "*":
+  "atom-beautify":
+    _analyticsUserId: "942de825-f534-40fc-b3a2-8d59ca542c4e"
   core:
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "linter-htmlhint"
     ]
   editor:
-    fontFamily: "Menlo"
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+  "exception-reporting":
+    userId: "c0bc714b-6540-20ab-e755-ad825980a4bc"
+  floobits:
+    audioOnly: true
+  "jscs-fixer": {}
+  linter:
+    errorPanelHeight: 55
+  "linter-htmlhint": {}
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "one-dark-ui": {}
   welcome:
     showOnStartup: false

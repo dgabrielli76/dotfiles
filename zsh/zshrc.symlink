@@ -39,3 +39,12 @@ do
 done
 
 unset config_files
+
+export NVM_DIR="/Users/David/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+[ -s "/Users/David/.scm_breeze/scm_breeze.sh" ] && source "/Users/David/.scm_breeze/scm_breeze.sh"
+
+export ANDROID_SDK=$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools
+export APPENGINE_SDK=$HOME/Documents/libs/google_appengine/
+export PATH="$PATH:$ANDROID_SDK:$APPENGINE_SDK"
